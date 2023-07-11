@@ -5,9 +5,3 @@ def idnum(s):
         print('%d is not integer'%s)
 
 
-print('input q to quit.')
-while 1:
-    a=input('Input a num:')
-    if a=='q':
-        break
-    idnum(int(a))
